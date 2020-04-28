@@ -3,6 +3,48 @@ body {
   padding: 0;
 }
 
+.green-box {
+  background-color: rgb(70, 235, 64);
+  width: 800px;
+  height: 500px;
+  opacity: 0.5;
+  text-align: center;
+}
+
+.blue-box {
+  background-color: rgb(87, 184, 223);
+  width: 750px;
+  height: 450px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.pink-box {
+  background-color: rgb(255, 144, 160);
+  width: 700px;
+  height: 400px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.purple-box {
+  background: purple;
+  width: 600px;
+  height: 115px;
+  display: inline-block;
+  margin-top: 60px;
+  opacity: 0.7;
+}
+
+.purple-box2 {
+  background: purple;
+  width: 600px;
+  height: 115px;
+  margin-top: 30px;
+  display: inline-block;
+  opacity: 0.7;
+}
+
 /* .App {
   text-align: center;
 }
@@ -17,7 +59,7 @@ body {
     animation: App-logo-spin infinite 20s linear;
   }
 } */
-.page-title {
+/* .page-title {
   text-align: center;
   padding-top: 80px;
   color: rgb(35, 35, 194);
@@ -28,11 +70,6 @@ body {
 .App-header {
   background-color: whitesmoke;
   min-height: 100vh;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* font-size: calc(10px + 2vmin); */
   color: black;
 }
 
@@ -57,7 +94,7 @@ body {
   font-weight: 500;
   font-size: 22px;
   margin-bottom: 5px;
-}
+} */
 
 /* .App-link {
   color: #61dafb;
