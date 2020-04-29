@@ -23,8 +23,8 @@ function Body(props) {
             ></ServiceEmojis>
             <Services service={"USER INTERFACE DESIGN"}></Services>
             <Examples example1={"Wireframing"}></Examples>
-            <Examples example1={"Prototyping"}></Examples>
-            <Examples example1={"Usability Testing"}></Examples>
+            <Examples example2={"Prototyping"}></Examples>
+            <Examples example3={"Usability Testing"}></Examples>
           </div>
           <div className="circle2">
             <ServiceEmojis
@@ -32,8 +32,8 @@ function Body(props) {
             ></ServiceEmojis>
             <Services service={"CONCEPT AND IDEAS"}></Services>
             <Examples example1={"Coceptualization"}></Examples>
-            <Examples example1={"Digital Branding"}></Examples>
-            <Examples example1={"Product Strategy"}></Examples>
+            <Examples example2={"Digital Branding"}></Examples>
+            <Examples example3={"Product Strategy"}></Examples>
           </div>
           <div className="circle3">
             <ServiceEmojis
@@ -41,8 +41,8 @@ function Body(props) {
             ></ServiceEmojis>
             <Services service={"DESIGN AND BRANDING"}></Services>
             <Examples example1={"Interaction Design"}></Examples>
-            <Examples example1={"Graphic Design"}></Examples>
-            <Examples example1={"Identity Design"}></Examples>
+            <Examples example2={"Graphic Design"}></Examples>
+            <Examples example3={"Identity Design"}></Examples>
           </div>
         </div>
       </div>
@@ -56,8 +56,6 @@ function ServiceEmojis(props) {
   return (
     <div>
       <div>{props.emoji}</div>
-      <div>{props.service}</div>
-      <div>{props.explanation}</div>
     </div>
   );
 }
