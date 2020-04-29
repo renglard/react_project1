@@ -1,19 +1,31 @@
-import React, { Component } from "react";
-import logo from "./logo.svg";
+import React from "react";
+// import logo from "./logo.svg";
 import "./App.css";
-import Destinations from "./components/destinations";
-import GreenBox from "./components/box1";
+// import Destinations from "./components/destinations";
+// import GreenBox from "./components/box1";
+import NavBar from "./components/services_nav_bar";
+import Body from "./components/services_body";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <GreenBox></GreenBox>
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div>
+      <NavBar></NavBar>
+      <Body></Body>
+    </div>
+  );
 }
+
 export default App;
+
+// class App extends Component {
+//   render() {
+//     return (
+//       <div className="App">
+//         <GreenBox></GreenBox>
+//       </div>
+//     );
+//   }
+// }
 
 // <header className="App-header">
 //         <h1 class="page-title">My Favorite Destinations</h1>
