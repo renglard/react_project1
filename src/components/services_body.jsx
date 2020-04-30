@@ -31,7 +31,7 @@ function Body(props) {
               emoji={<i class="fas fa-pencil-alt"></i>}
             ></ServiceEmojis>
             <Services service={"CONCEPT AND IDEAS"}></Services>
-            <Examples example1={"Coceptualization"}></Examples>
+            <Examples example1={"Conceptualization"}></Examples>
             <Examples example2={"Digital Branding"}></Examples>
             <Examples example3={"Product Strategy"}></Examples>
           </div>
