@@ -611,17 +611,16 @@ class ObjItems extends React.Component {
 
   render() {
     return (
-      <div>
+      <ol>
         {people.map((profile, i) => (
           <List
-            className="list"
             name={profile.first_name}
             country={profile.country}
             email={profile.email}
             key={i}
           />
         ))}
-      </div>
+      </ol>
     );
   }
 }

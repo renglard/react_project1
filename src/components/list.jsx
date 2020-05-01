@@ -7,24 +7,22 @@ class List extends React.Component {
 
   render() {
     return (
-      <ul>
-        <li className="list">
-          <span>
-            {" "}
-            <b>Name:</b> {this.props.name}{" "}
-          </span>
-          <span>
-            {" "}
-            <b>Email:</b> {this.props.email}{" "}
-          </span>
-          <span>
-            {" "}
-            <b>Country:</b> {this.props.country}{" "}
-          </span>
-          <br />
-          <br />
-        </li>
-      </ul>
+      <li>
+        <p className="obj-item">
+          {" "}
+          <b>Name:</b> {this.props.name}{" "}
+        </p>
+        <p className="obj-item">
+          {" "}
+          <b>Email:</b> {this.props.email}{" "}
+        </p>
+        <p className="obj-item">
+          {" "}
+          <b className>Country:</b> {this.props.country}{" "}
+        </p>
+        <br />
+        <br />
+      </li>
     );
   }
 }
