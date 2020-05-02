@@ -1,5 +1,33 @@
 import React from "react";
 
+class Checkbox extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isChecked: false,
+    };
+    this.handleChange = this.handleChange.bind(this);
+  }
+  handleChange = (event) => {
+    this.setState({ [event.target.name]: event.target.checked });
+  };
+
+  render() {
+    return (
+      <div>
+        {this.state.isChecked && <Alert></Alert>}
+        <input
+          type="checkbox"
+          name="isChecked"
+          checked={this.state.isChecked}
+          onChange={this.handleChange}
+        ></input>
+      </div>
+    );
+  }
+}
+export default Checkbox;
+
 class Alert extends React.Component {
   constructor(props) {
     super(props);
@@ -12,7 +40,6 @@ class Alert extends React.Component {
   }
 
   render() {
-    return <h1>Title</h1>;
+    return <h1>THANK YOU FOR CHECKING ME!</h1>;
   }
 }
-export default Alert;

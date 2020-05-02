@@ -8,9 +8,10 @@ import "./App.css";
 import ObjItems from "./components/people";
 // import List from "./components/list";
 import Alert from "./components/alert";
+import Checkbox from "./components/alert";
 
 function App() {
-  return <Alert></Alert>;
+  return <Checkbox></Checkbox>;
 }
 
 export default App;
