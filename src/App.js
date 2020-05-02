@@ -7,9 +7,10 @@ import "./App.css";
 // import Body from "./components/services_body";
 import ObjItems from "./components/people";
 // import List from "./components/list";
+import Alert from "./components/alert";
 
 function App() {
-  return <ObjItems></ObjItems>;
+  return <Alert></Alert>;
 }
 
 export default App;

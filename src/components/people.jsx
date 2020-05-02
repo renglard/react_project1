@@ -617,7 +617,7 @@ class ObjItems extends React.Component {
             name={profile.first_name}
             country={profile.country}
             email={profile.email}
-            key={i}
+            key={profile.id}
           />
         ))}
       </ol>
